@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LoginViewController.h
 //  MakeADifference
 //
 //  Created by Venkatachalam perumal on 10/11/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@interface LoginViewController : UIViewController
++ (LoginViewController *)viewController;
 @end
-

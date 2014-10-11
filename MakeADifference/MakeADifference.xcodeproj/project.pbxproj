@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		FEB3F0AA19E937D30031AED7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB3F0A919E937D30031AED7 /* main.m */; };
 		FEB3F0AD19E937D30031AED7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB3F0AC19E937D30031AED7 /* AppDelegate.m */; };
-		FEB3F0B019E937D30031AED7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB3F0AF19E937D30031AED7 /* ViewController.m */; };
-		FEB3F0B319E937D30031AED7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEB3F0B119E937D30031AED7 /* Main.storyboard */; };
 		FEB3F0B519E937D30031AED7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEB3F0B419E937D30031AED7 /* Images.xcassets */; };
 		FEB3F0B819E937D30031AED7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB3F0B619E937D30031AED7 /* LaunchScreen.xib */; };
 		FEB3F0C419E937D30031AED7 /* MakeADifferenceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB3F0C319E937D30031AED7 /* MakeADifferenceTests.m */; };
+		FEB7785119E93C6B006F56B4 /* RequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB7784F19E93C6B006F56B4 /* RequestHandler.m */; };
+		FEB7785719E93C97006F56B4 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB7785419E93C97006F56B4 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FEB7785819E93C97006F56B4 /* NetworkHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB7785619E93C97006F56B4 /* NetworkHandler.m */; };
+		FEB7785E19E93D1F006F56B4 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB7785C19E93D1F006F56B4 /* LoginViewController.m */; };
+		FEB7785F19E93D1F006F56B4 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB7785D19E93D1F006F56B4 /* LoginViewController.xib */; };
+		FEB7786419E93DA7006F56B4 /* LoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB7786319E93DA7006F56B4 /* LoginRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +36,23 @@
 		FEB3F0A919E937D30031AED7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FEB3F0AB19E937D30031AED7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FEB3F0AC19E937D30031AED7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FEB3F0AE19E937D30031AED7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FEB3F0AF19E937D30031AED7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FEB3F0B219E937D30031AED7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FEB3F0B419E937D30031AED7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FEB3F0B719E937D30031AED7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FEB3F0BD19E937D30031AED7 /* MakeADifferenceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakeADifferenceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEB3F0C219E937D30031AED7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEB3F0C319E937D30031AED7 /* MakeADifferenceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MakeADifferenceTests.m; sourceTree = "<group>"; };
+		FEB7784E19E93C6B006F56B4 /* RequestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestHandler.h; sourceTree = "<group>"; };
+		FEB7784F19E93C6B006F56B4 /* RequestHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestHandler.m; sourceTree = "<group>"; };
+		FEB7785019E93C6B006F56B4 /* RequestHandlerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestHandlerDelegate.h; sourceTree = "<group>"; };
+		FEB7785319E93C97006F56B4 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		FEB7785419E93C97006F56B4 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		FEB7785519E93C97006F56B4 /* NetworkHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkHandler.h; sourceTree = "<group>"; };
+		FEB7785619E93C97006F56B4 /* NetworkHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkHandler.m; sourceTree = "<group>"; };
+		FEB7785B19E93D1F006F56B4 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		FEB7785C19E93D1F006F56B4 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		FEB7785D19E93D1F006F56B4 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		FEB7786219E93DA7006F56B4 /* LoginRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginRequest.h; sourceTree = "<group>"; };
+		FEB7786319E93DA7006F56B4 /* LoginRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginRequest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +96,9 @@
 			children = (
 				FEB3F0AB19E937D30031AED7 /* AppDelegate.h */,
 				FEB3F0AC19E937D30031AED7 /* AppDelegate.m */,
-				FEB3F0AE19E937D30031AED7 /* ViewController.h */,
-				FEB3F0AF19E937D30031AED7 /* ViewController.m */,
-				FEB3F0B119E937D30031AED7 /* Main.storyboard */,
+				FEB7786019E93D44006F56B4 /* View */,
+				FEB7785919E93C9E006F56B4 /* Controller */,
+				FEB7784C19E93BF6006F56B4 /* Model */,
 				FEB3F0B419E937D30031AED7 /* Images.xcassets */,
 				FEB3F0B619E937D30031AED7 /* LaunchScreen.xib */,
 				FEB3F0A719E937D30031AED7 /* Supporting Files */,
@@ -117,6 +130,71 @@
 				FEB3F0C219E937D30031AED7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEB7784C19E93BF6006F56B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FEB7786119E93D7E006F56B4 /* LoginRequest */,
+				FEB7785219E93C70006F56B4 /* Reachability */,
+				FEB7784D19E93C4D006F56B4 /* RequestHandler */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FEB7784D19E93C4D006F56B4 /* RequestHandler */ = {
+			isa = PBXGroup;
+			children = (
+				FEB7784E19E93C6B006F56B4 /* RequestHandler.h */,
+				FEB7784F19E93C6B006F56B4 /* RequestHandler.m */,
+				FEB7785019E93C6B006F56B4 /* RequestHandlerDelegate.h */,
+			);
+			path = RequestHandler;
+			sourceTree = "<group>";
+		};
+		FEB7785219E93C70006F56B4 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				FEB7785319E93C97006F56B4 /* Reachability.h */,
+				FEB7785419E93C97006F56B4 /* Reachability.m */,
+				FEB7785519E93C97006F56B4 /* NetworkHandler.h */,
+				FEB7785619E93C97006F56B4 /* NetworkHandler.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		FEB7785919E93C9E006F56B4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FEB7785A19E93CE1006F56B4 /* LoginViewController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FEB7785A19E93CE1006F56B4 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FEB7785B19E93D1F006F56B4 /* LoginViewController.h */,
+				FEB7785C19E93D1F006F56B4 /* LoginViewController.m */,
+				FEB7785D19E93D1F006F56B4 /* LoginViewController.xib */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		FEB7786019E93D44006F56B4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FEB7786119E93D7E006F56B4 /* LoginRequest */ = {
+			isa = PBXGroup;
+			children = (
+				FEB7786219E93DA7006F56B4 /* LoginRequest.h */,
+				FEB7786319E93DA7006F56B4 /* LoginRequest.m */,
+			);
+			path = LoginRequest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +277,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEB3F0B319E937D30031AED7 /* Main.storyboard in Resources */,
+				FEB7785F19E93D1F006F56B4 /* LoginViewController.xib in Resources */,
 				FEB3F0B819E937D30031AED7 /* LaunchScreen.xib in Resources */,
 				FEB3F0B519E937D30031AED7 /* Images.xcassets in Resources */,
 			);
@@ -219,8 +297,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEB3F0B019E937D30031AED7 /* ViewController.m in Sources */,
+				FEB7786419E93DA7006F56B4 /* LoginRequest.m in Sources */,
+				FEB7785E19E93D1F006F56B4 /* LoginViewController.m in Sources */,
+				FEB7785119E93C6B006F56B4 /* RequestHandler.m in Sources */,
 				FEB3F0AD19E937D30031AED7 /* AppDelegate.m in Sources */,
+				FEB7785819E93C97006F56B4 /* NetworkHandler.m in Sources */,
+				FEB7785719E93C97006F56B4 /* Reachability.m in Sources */,
 				FEB3F0AA19E937D30031AED7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,14 +326,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FEB3F0B119E937D30031AED7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FEB3F0B219E937D30031AED7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FEB3F0B619E937D30031AED7 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -412,6 +486,7 @@
 				FEB3F0C919E937D30031AED7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FEB3F0CA19E937D30031AED7 /* Build configuration list for PBXNativeTarget "MakeADifferenceTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +495,7 @@
 				FEB3F0CC19E937D30031AED7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
