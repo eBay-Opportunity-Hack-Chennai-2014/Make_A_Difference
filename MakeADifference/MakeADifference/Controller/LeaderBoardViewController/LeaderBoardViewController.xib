@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LeaderBoardViewController">
+            <connections>
+                <outlet property="leaderboardTableView" destination="LFX-fk-ilb" id="sHY-SB-Dd3"/>
+                <outlet property="view" destination="iN0-l3-epB" id="F1w-84-c5J"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5KO-jl-lgd">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mDm-Tt-L3i">
+                            <rect key="frame" x="0.0" y="20" width="41" height="30"/>
+                            <state key="normal" image="back">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="backAction:" destination="-1" eventType="touchUpInside" id="uPo-DP-GrL"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Leader Board" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cic-XJ-Iud">
+                            <rect key="frame" x="92" y="22" width="135" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="135" id="ZkO-IX-a1y"/>
+                                <constraint firstAttribute="height" constant="21" id="fye-SQ-SmH"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="18"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.87450987099999999" green="0.090196080509999998" blue="0.270588249" alpha="1" colorSpace="deviceRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="centerY" secondItem="cic-XJ-Iud" secondAttribute="centerY" id="5eG-ny-1wZ"/>
+                        <constraint firstAttribute="height" constant="64" id="Alx-h1-ttV"/>
+                        <constraint firstAttribute="centerX" secondItem="cic-XJ-Iud" secondAttribute="centerX" id="hj0-tf-2Is"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="LFX-fk-ilb">
+                    <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="MYG-LQ-FNA"/>
+                        <outlet property="delegate" destination="-1" id="g0z-pg-9Ni"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="LFX-fk-ilb" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="7Hf-RI-C6S"/>
+                <constraint firstItem="5KO-jl-lgd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="8yh-2S-GoA"/>
+                <constraint firstAttribute="trailing" secondItem="LFX-fk-ilb" secondAttribute="trailing" id="C34-vH-eqv"/>
+                <constraint firstItem="LFX-fk-ilb" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="64" id="Y3K-TM-Ypd"/>
+                <constraint firstAttribute="trailing" secondItem="5KO-jl-lgd" secondAttribute="trailing" id="cjb-9E-djN"/>
+                <constraint firstAttribute="bottom" secondItem="LFX-fk-ilb" secondAttribute="bottom" id="rvN-IV-3gB"/>
+                <constraint firstItem="5KO-jl-lgd" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="stT-JZ-xzb"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="back" width="25" height="26"/>
+    </resources>
+</document>

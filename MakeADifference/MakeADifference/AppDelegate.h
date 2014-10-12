@@ -14,5 +14,10 @@
 
 @property (strong, nonatomic) UINavigationController *navigationController;
 
+// Show alert.
+- (void)showAlert:(NSString *)title withText:(NSString *)message;
+
++ (instancetype)appDelegate;
+
 @end
 

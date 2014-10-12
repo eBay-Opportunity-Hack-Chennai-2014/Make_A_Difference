@@ -15,12 +15,24 @@
 
 @implementation AppDelegate
 
++ (instancetype)appDelegate {
+    
+    return (AppDelegate *)[UIApplication sharedApplication].delegate;
+}
+
+// Show alert.
+- (void)showAlert:(NSString *)title withText:(NSString *)message {
+    
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:title message:message delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:nil, nil];
+    alert.tag = 1;
+    [alert show];
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.navigationController = [[UINavigationController alloc] initWithRootViewController:[LoginViewController viewController]];
-    self.navigationController.navigationBarHidden = NO;
+    self.navigationController.navigationBarHidden = YES;
     self.window.rootViewController = self.navigationController;
     
     [self.window makeKeyAndVisible];

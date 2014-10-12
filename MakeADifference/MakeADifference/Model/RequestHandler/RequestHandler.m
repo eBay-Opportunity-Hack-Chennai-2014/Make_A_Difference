@@ -21,49 +21,40 @@
         _request = [[NSMutableURLRequest alloc] initWithURL:url cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:TIMEOUT_INTERVAL];
         _delegate = delegate;
         _postParameters = [[NSMutableDictionary alloc] init];
-        //_postString = [[NSMutableString alloc] init];
+         _postString = [[NSMutableString alloc] init];
     }
   
     return self;
 }
+//
+//- (void)setParameter:(id)parameter forKey:(NSString *)key {
+//  
+//    [_postParameters setObject:parameter forKey:key];
+//}
 
-- (void)setParameter:(id)parameter forKey:(NSString *)key {
-  
-//    if (_postString.length == 0) {
-//        
-//        _postString = [NSMutableString stringWithFormat:@"%@ = %@", key, parameter];
-//    } else {
-//        
-//        [_postString appendFormat:@"&%@ = %@",key, parameter];
-//    }
-    
-    [_postParameters setObject:parameter forKey:key];
+-(void)setParameter:(id)parameter forKey:(NSString *)key {
+    if (_postString.length == 0) {
+        [_postString appendFormat:@"%@=%@",key,parameter];
+    } else {
+        [_postString appendFormat:@"&%@=%@",key,parameter];
+    }
 }
-
 - (void)getRequest {
     
-    //NSString *postBody = [jsonWrite stringWithObject:_postParameters];
-    //NSError *error;
-    //NSData *postdata = [NSJSONSerialization dataWithJSONObject:_postParameters options:NSJSONWritingPrettyPrinted error:&error];
-    //NSLog(@"-->%@", _postParameters);
-    [_request setHTTPMethod:@"GET"];
-    //[_request setHTTPBody:postdata];
+
+    [_request setHTTPMethod:@"POST"];
     [_request setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
-    //[_request setValue:[NSString stringWithFormat:@"%lu", (unsigned long)[postdata length]] forHTTPHeaderField:@"Content-Length"];
     _connection = [[NSURLConnection alloc] initWithRequest:_request delegate:self startImmediately:TRUE];
 }
 
 
 - (void)startRequest {
   
-    //NSString *postBody = [jsonWrite stringWithObject:_postParameters];
     NSError *error;
     NSData *postdata = [NSJSONSerialization dataWithJSONObject:_postParameters options:NSJSONWritingPrettyPrinted error:&error];
     NSLog(@"-->%@", _postParameters);
     [_request setHTTPMethod:@"POST"];
-    [_request setHTTPBody:postdata];
-    [_request setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
-    [_request setValue:[NSString stringWithFormat:@"%lu", (unsigned long)[postdata length]] forHTTPHeaderField:@"Content-Length"];
+    [_request setHTTPBody:[_postString dataUsingEncoding:NSUTF8StringEncoding]];
     _connection = [[NSURLConnection alloc] initWithRequest:_request delegate:self startImmediately:TRUE];
 }
 
@@ -118,7 +109,6 @@
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection {  
   
     NSString *stringValue = [[NSString alloc] initWithData:_data encoding:NSUTF8StringEncoding];
-    NSLog(@"stringValue-->%@", stringValue);
     NSError *error = nil;
     NSDictionary *serverData = nil;
   
@@ -136,9 +126,8 @@
         error = [NSError errorWithDomain:@"JsonParseError" code:0 userInfo:[NSDictionary dictionaryWithObjectsAndKeys:@"Error processing server data", @"message", nil]];
     }
   
-    _responseData = [serverData objectForKey:@"Data"];
-    _status = [[serverData objectForKey:@"ResponseCode"] description];
-    NSLog(@"status %@", [serverData objectForKey:@"ResponseCode"]);
+    _responseData = serverData;
+    _status = [serverData objectForKey:@"status"];
     
     if (_status.intValue) {
         

@@ -7,6 +7,7 @@
 //
 
 #import "LoginViewController.h"
+#import "HomeViewController.h"
 
 @interface LoginViewController ()
 
@@ -30,14 +31,58 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (IBAction)loginPressed:(id)sender {
+
+    LoginRequest *loginRequest = [[LoginRequest alloc] initWithDelegate:self];
+//    [loginRequest startRequestWithUsername:@"fiona.annette.0110@gmail.com" password:@"pass"];
+      [loginRequest startRequestWithUsername:@"mynamesrk@gmail.com" password:@"pass"];
+    
+//    if ([self validateCredentials] == YES) {
+//        LoginRequest *loginRequest = [[LoginRequest alloc] initWithDelegate:self];
+//        [loginRequest startRequestWithUsername:usernameTextField.text password:passwordTextField.text];        
+//    }
+    
 }
-*/
+
+- (BOOL)validateCredentials
+{
+    if (usernameTextField.text.length == 0 && [usernameTextField.text isEqualToString:@""]) {
+        [self alertWithMessage:@"Please enter username"];
+        return NO;
+        
+    } else if (passwordTextField.text.length == 0 && [passwordTextField.text isEqualToString:@""]){
+        [self alertWithMessage:@"Please enter password"];
+        return NO;
+    } else {
+        return YES;
+    }
+}
+
+- (void)alertWithMessage:(NSString *)message {
+    
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Failed" message:message delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+    [alert show];
+}
+
+#pragma mark - Text Field and Text View
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    
+    [textField resignFirstResponder];
+    return YES;
+}
+
+#pragma mark loginRequestDelegate
+
+- (void)loginRequestDidSucceded:(LoginRequest *)loginRequest {
+
+    [self.navigationController pushViewController:[HomeViewController viewController] animated:YES];
+}
+
+- (void)loginRequestdidFailed:(LoginRequest *)loginRequest withError:(NSString *)error {
+    
+    [self alertWithMessage:error];
+}
 
 @end

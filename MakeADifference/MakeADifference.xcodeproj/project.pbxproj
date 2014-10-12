@@ -18,6 +18,61 @@
 		FEB7785E19E93D1F006F56B4 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB7785C19E93D1F006F56B4 /* LoginViewController.m */; };
 		FEB7785F19E93D1F006F56B4 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB7785D19E93D1F006F56B4 /* LoginViewController.xib */; };
 		FEB7786419E93DA7006F56B4 /* LoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB7786319E93DA7006F56B4 /* LoginRequest.m */; };
+		FEB7786919E956B5006F56B4 /* SharedSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB7786819E956B5006F56B4 /* SharedSingleton.m */; };
+		FEB7786D19E95733006F56B4 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB7786C19E95732006F56B4 /* UserInfo.m */; };
+		FEB7787919E96878006F56B4 /* VolunteerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB7787719E96878006F56B4 /* VolunteerListViewController.m */; };
+		FEB7787A19E96878006F56B4 /* VolunteerListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB7787819E96878006F56B4 /* VolunteerListViewController.xib */; };
+		FEB7787D19E96955006F56B4 /* VolunteerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB7787C19E96955006F56B4 /* VolunteerRequest.m */; };
+		FEB7788119E979D9006F56B4 /* Volunteer.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB7788019E979D9006F56B4 /* Volunteer.m */; };
+		FEB7788619E97DB3006F56B4 /* VolunteerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB7788419E97DB3006F56B4 /* VolunteerTableViewCell.m */; };
+		FEB7788719E97DB3006F56B4 /* VolunteerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB7788519E97DB3006F56B4 /* VolunteerTableViewCell.xib */; };
+		FEB7788D19E9A728006F56B4 /* CreditHistoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB7788B19E9A728006F56B4 /* CreditHistoryTableViewCell.m */; };
+		FEB7788E19E9A728006F56B4 /* CreditHistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB7788C19E9A728006F56B4 /* CreditHistoryTableViewCell.xib */; };
+		FEB7789219E9A73E006F56B4 /* ClassHistoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB7789019E9A73E006F56B4 /* ClassHistoryTableViewCell.m */; };
+		FEB7789319E9A73E006F56B4 /* ClassHistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB7789119E9A73E006F56B4 /* ClassHistoryTableViewCell.xib */; };
+		FEB7789919E9A799006F56B4 /* ClassHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB7789719E9A799006F56B4 /* ClassHistoryViewController.m */; };
+		FEB7789A19E9A799006F56B4 /* ClassHistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB7789819E9A799006F56B4 /* ClassHistoryViewController.xib */; };
+		FEB7789F19E9A878006F56B4 /* CreditHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB7789D19E9A878006F56B4 /* CreditHistoryViewController.m */; };
+		FEB778A019E9A878006F56B4 /* CreditHistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB7789E19E9A878006F56B4 /* CreditHistoryViewController.xib */; };
+		FEB778A419E9A935006F56B4 /* CreditHistoryRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB778A319E9A935006F56B4 /* CreditHistoryRequest.m */; };
+		FEB778A819E9AC29006F56B4 /* ClassHistoryRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB778A719E9AC29006F56B4 /* ClassHistoryRequest.m */; };
+		FEB778AF19E9ACF5006F56B4 /* ClassHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB778AE19E9ACF5006F56B4 /* ClassHistory.m */; };
+		FEB778B319E9AD23006F56B4 /* CreditHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB778B219E9AD23006F56B4 /* CreditHistory.m */; };
+		FEB778B819E9CD08006F56B4 /* CreditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB778B619E9CD08006F56B4 /* CreditViewController.m */; };
+		FEB778BD19E9D440006F56B4 /* LeaderBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB778BC19E9D440006F56B4 /* LeaderBoardViewController.m */; };
+		FEB778BF19EA06A7006F56B4 /* LeaderBoardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB778BE19EA06A7006F56B4 /* LeaderBoardViewController.xib */; };
+		FEB778C419EA0906006F56B4 /* LowCreditsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB778C219EA0906006F56B4 /* LowCreditsViewController.m */; };
+		FEB778C519EA0906006F56B4 /* LowCreditsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB778C319EA0906006F56B4 /* LowCreditsViewController.xib */; };
+		FEB778CA19EA0AAB006F56B4 /* AbsenteeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB778C819EA0AAB006F56B4 /* AbsenteeViewController.m */; };
+		FEB778CB19EA0AAB006F56B4 /* AbsenteeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB778C919EA0AAB006F56B4 /* AbsenteeViewController.xib */; };
+		FEB778CF19EA0B33006F56B4 /* AbsenteeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB778CE19EA0B33006F56B4 /* AbsenteeRequest.m */; };
+		FEB778D319EA216A006F56B4 /* LeaderBoardRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB778D219EA216A006F56B4 /* LeaderBoardRequest.m */; };
+		FEB778D719EA32C9006F56B4 /* Credit.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB778D619EA32C9006F56B4 /* Credit.m */; };
+		FEB778DC19EA3BAC006F56B4 /* LowCreditRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB778DB19EA3BAC006F56B4 /* LowCreditRequest.m */; };
+		FEB778E119EA496D006F56B4 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB778DE19EA496D006F56B4 /* HomeViewController.m */; };
+		FEB778E219EA496D006F56B4 /* VolunteerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB778DF19EA496D006F56B4 /* VolunteerViewController.xib */; };
+		FEB778E319EA496D006F56B4 /* MentorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB778E019EA496D006F56B4 /* MentorViewController.xib */; };
+		FEB778E819EA49EC006F56B4 /* AttendanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB778E619EA49EC006F56B4 /* AttendanceViewController.m */; };
+		FEB778E919EA49EC006F56B4 /* AttendanceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB778E719EA49EC006F56B4 /* AttendanceViewController.xib */; };
+		FEB778EE19EA4A04006F56B4 /* AttendanceDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB778EC19EA4A04006F56B4 /* AttendanceDetailsViewController.m */; };
+		FEB778EF19EA4A04006F56B4 /* AttendanceDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB778ED19EA4A04006F56B4 /* AttendanceDetailsViewController.xib */; };
+		FEB778FB19EA4A52006F56B4 /* GetBatchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB778F419EA4A52006F56B4 /* GetBatchRequest.m */; };
+		FEB778FC19EA4A52006F56B4 /* Level.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB778F619EA4A52006F56B4 /* Level.m */; };
+		FEB778FD19EA4A52006F56B4 /* Lesson.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB778F819EA4A52006F56B4 /* Lesson.m */; };
+		FEB778FE19EA4A52006F56B4 /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB778FA19EA4A52006F56B4 /* Teacher.m */; };
+		FEB7790219EA4B0F006F56B4 /* AttendanceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB7790019EA4B0F006F56B4 /* AttendanceCell.m */; };
+		FEB7790319EA4B0F006F56B4 /* AttendanceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB7790119EA4B0F006F56B4 /* AttendanceCell.xib */; };
+		FEB7790719EA5341006F56B4 /* Absentee.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB7790619EA5341006F56B4 /* Absentee.m */; };
+		FEB7790F19EA5430006F56B4 /* AbsenteeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB7790D19EA5430006F56B4 /* AbsenteeTableViewCell.m */; };
+		FEB7791019EA5430006F56B4 /* AbsenteeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB7790E19EA5430006F56B4 /* AbsenteeTableViewCell.xib */; };
+		FEB7791519EA58F1006F56B4 /* ReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB7791319EA58F1006F56B4 /* ReportViewController.m */; };
+		FEB7791619EA58F1006F56B4 /* ReportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB7791419EA58F1006F56B4 /* ReportViewController.xib */; };
+		FEB7791A19EA6648006F56B4 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB7791919EA6648006F56B4 /* MBProgressHUD.m */; };
+		FEFADCAF19EA81020003A3DB /* SubstituteRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFADCAC19EA81020003A3DB /* SubstituteRequest.m */; };
+		FEFADCB019EA81020003A3DB /* Substitute.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFADCAE19EA81020003A3DB /* Substitute.m */; };
+		FEFADCB819EA81200003A3DB /* CancellationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFADCB319EA81200003A3DB /* CancellationRequest.m */; };
+		FEFADCB919EA81200003A3DB /* ClassCancelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFADCB519EA81200003A3DB /* ClassCancelRequest.m */; };
+		FEFADCBA19EA81200003A3DB /* UndoCancelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFADCB719EA81200003A3DB /* UndoCancelRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +108,101 @@
 		FEB7785D19E93D1F006F56B4 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		FEB7786219E93DA7006F56B4 /* LoginRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginRequest.h; sourceTree = "<group>"; };
 		FEB7786319E93DA7006F56B4 /* LoginRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginRequest.m; sourceTree = "<group>"; };
+		FEB7786719E956B5006F56B4 /* SharedSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedSingleton.h; sourceTree = "<group>"; };
+		FEB7786819E956B5006F56B4 /* SharedSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedSingleton.m; sourceTree = "<group>"; };
+		FEB7786B19E95732006F56B4 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		FEB7786C19E95732006F56B4 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		FEB7787619E96878006F56B4 /* VolunteerListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VolunteerListViewController.h; sourceTree = "<group>"; };
+		FEB7787719E96878006F56B4 /* VolunteerListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VolunteerListViewController.m; sourceTree = "<group>"; };
+		FEB7787819E96878006F56B4 /* VolunteerListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VolunteerListViewController.xib; sourceTree = "<group>"; };
+		FEB7787B19E96955006F56B4 /* VolunteerRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VolunteerRequest.h; sourceTree = "<group>"; };
+		FEB7787C19E96955006F56B4 /* VolunteerRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VolunteerRequest.m; sourceTree = "<group>"; };
+		FEB7787F19E979D9006F56B4 /* Volunteer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Volunteer.h; sourceTree = "<group>"; };
+		FEB7788019E979D9006F56B4 /* Volunteer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Volunteer.m; sourceTree = "<group>"; };
+		FEB7788319E97DB3006F56B4 /* VolunteerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VolunteerTableViewCell.h; sourceTree = "<group>"; };
+		FEB7788419E97DB3006F56B4 /* VolunteerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VolunteerTableViewCell.m; sourceTree = "<group>"; };
+		FEB7788519E97DB3006F56B4 /* VolunteerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VolunteerTableViewCell.xib; sourceTree = "<group>"; };
+		FEB7788A19E9A728006F56B4 /* CreditHistoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditHistoryTableViewCell.h; sourceTree = "<group>"; };
+		FEB7788B19E9A728006F56B4 /* CreditHistoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditHistoryTableViewCell.m; sourceTree = "<group>"; };
+		FEB7788C19E9A728006F56B4 /* CreditHistoryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreditHistoryTableViewCell.xib; sourceTree = "<group>"; };
+		FEB7788F19E9A73E006F56B4 /* ClassHistoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassHistoryTableViewCell.h; sourceTree = "<group>"; };
+		FEB7789019E9A73E006F56B4 /* ClassHistoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassHistoryTableViewCell.m; sourceTree = "<group>"; };
+		FEB7789119E9A73E006F56B4 /* ClassHistoryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClassHistoryTableViewCell.xib; sourceTree = "<group>"; };
+		FEB7789619E9A799006F56B4 /* ClassHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassHistoryViewController.h; sourceTree = "<group>"; };
+		FEB7789719E9A799006F56B4 /* ClassHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassHistoryViewController.m; sourceTree = "<group>"; };
+		FEB7789819E9A799006F56B4 /* ClassHistoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClassHistoryViewController.xib; sourceTree = "<group>"; };
+		FEB7789C19E9A878006F56B4 /* CreditHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditHistoryViewController.h; sourceTree = "<group>"; };
+		FEB7789D19E9A878006F56B4 /* CreditHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditHistoryViewController.m; sourceTree = "<group>"; };
+		FEB7789E19E9A878006F56B4 /* CreditHistoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreditHistoryViewController.xib; sourceTree = "<group>"; };
+		FEB778A219E9A935006F56B4 /* CreditHistoryRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditHistoryRequest.h; sourceTree = "<group>"; };
+		FEB778A319E9A935006F56B4 /* CreditHistoryRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditHistoryRequest.m; sourceTree = "<group>"; };
+		FEB778A619E9AC29006F56B4 /* ClassHistoryRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassHistoryRequest.h; sourceTree = "<group>"; };
+		FEB778A719E9AC29006F56B4 /* ClassHistoryRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassHistoryRequest.m; sourceTree = "<group>"; };
+		FEB778AD19E9ACF5006F56B4 /* ClassHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassHistory.h; sourceTree = "<group>"; };
+		FEB778AE19E9ACF5006F56B4 /* ClassHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassHistory.m; sourceTree = "<group>"; };
+		FEB778B119E9AD23006F56B4 /* CreditHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditHistory.h; sourceTree = "<group>"; };
+		FEB778B219E9AD23006F56B4 /* CreditHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditHistory.m; sourceTree = "<group>"; };
+		FEB778B519E9CD08006F56B4 /* CreditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditViewController.h; sourceTree = "<group>"; };
+		FEB778B619E9CD08006F56B4 /* CreditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditViewController.m; sourceTree = "<group>"; };
+		FEB778BB19E9D440006F56B4 /* LeaderBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeaderBoardViewController.h; sourceTree = "<group>"; };
+		FEB778BC19E9D440006F56B4 /* LeaderBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeaderBoardViewController.m; sourceTree = "<group>"; };
+		FEB778BE19EA06A7006F56B4 /* LeaderBoardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeaderBoardViewController.xib; sourceTree = "<group>"; };
+		FEB778C119EA0906006F56B4 /* LowCreditsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LowCreditsViewController.h; sourceTree = "<group>"; };
+		FEB778C219EA0906006F56B4 /* LowCreditsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LowCreditsViewController.m; sourceTree = "<group>"; };
+		FEB778C319EA0906006F56B4 /* LowCreditsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LowCreditsViewController.xib; sourceTree = "<group>"; };
+		FEB778C719EA0AAB006F56B4 /* AbsenteeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbsenteeViewController.h; sourceTree = "<group>"; };
+		FEB778C819EA0AAB006F56B4 /* AbsenteeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbsenteeViewController.m; sourceTree = "<group>"; };
+		FEB778C919EA0AAB006F56B4 /* AbsenteeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AbsenteeViewController.xib; sourceTree = "<group>"; };
+		FEB778CD19EA0B33006F56B4 /* AbsenteeRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbsenteeRequest.h; sourceTree = "<group>"; };
+		FEB778CE19EA0B33006F56B4 /* AbsenteeRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbsenteeRequest.m; sourceTree = "<group>"; };
+		FEB778D119EA216A006F56B4 /* LeaderBoardRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeaderBoardRequest.h; sourceTree = "<group>"; };
+		FEB778D219EA216A006F56B4 /* LeaderBoardRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeaderBoardRequest.m; sourceTree = "<group>"; };
+		FEB778D519EA32C9006F56B4 /* Credit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Credit.h; sourceTree = "<group>"; };
+		FEB778D619EA32C9006F56B4 /* Credit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Credit.m; sourceTree = "<group>"; };
+		FEB778DA19EA3BAC006F56B4 /* LowCreditRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LowCreditRequest.h; sourceTree = "<group>"; };
+		FEB778DB19EA3BAC006F56B4 /* LowCreditRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LowCreditRequest.m; sourceTree = "<group>"; };
+		FEB778DD19EA496D006F56B4 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		FEB778DE19EA496D006F56B4 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		FEB778DF19EA496D006F56B4 /* VolunteerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VolunteerViewController.xib; sourceTree = "<group>"; };
+		FEB778E019EA496D006F56B4 /* MentorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MentorViewController.xib; sourceTree = "<group>"; };
+		FEB778E519EA49EC006F56B4 /* AttendanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttendanceViewController.h; sourceTree = "<group>"; };
+		FEB778E619EA49EC006F56B4 /* AttendanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttendanceViewController.m; sourceTree = "<group>"; };
+		FEB778E719EA49EC006F56B4 /* AttendanceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AttendanceViewController.xib; sourceTree = "<group>"; };
+		FEB778EB19EA4A04006F56B4 /* AttendanceDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttendanceDetailsViewController.h; sourceTree = "<group>"; };
+		FEB778EC19EA4A04006F56B4 /* AttendanceDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttendanceDetailsViewController.m; sourceTree = "<group>"; };
+		FEB778ED19EA4A04006F56B4 /* AttendanceDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AttendanceDetailsViewController.xib; sourceTree = "<group>"; };
+		FEB778F119EA4A2E006F56B4 /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		FEB778F319EA4A52006F56B4 /* GetBatchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetBatchRequest.h; sourceTree = "<group>"; };
+		FEB778F419EA4A52006F56B4 /* GetBatchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetBatchRequest.m; sourceTree = "<group>"; };
+		FEB778F519EA4A52006F56B4 /* Level.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level.h; sourceTree = "<group>"; };
+		FEB778F619EA4A52006F56B4 /* Level.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Level.m; sourceTree = "<group>"; };
+		FEB778F719EA4A52006F56B4 /* Lesson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lesson.h; sourceTree = "<group>"; };
+		FEB778F819EA4A52006F56B4 /* Lesson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lesson.m; sourceTree = "<group>"; };
+		FEB778F919EA4A52006F56B4 /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		FEB778FA19EA4A52006F56B4 /* Teacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+		FEB778FF19EA4B0F006F56B4 /* AttendanceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttendanceCell.h; sourceTree = "<group>"; };
+		FEB7790019EA4B0F006F56B4 /* AttendanceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttendanceCell.m; sourceTree = "<group>"; };
+		FEB7790119EA4B0F006F56B4 /* AttendanceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AttendanceCell.xib; sourceTree = "<group>"; };
+		FEB7790519EA5341006F56B4 /* Absentee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Absentee.h; sourceTree = "<group>"; };
+		FEB7790619EA5341006F56B4 /* Absentee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Absentee.m; sourceTree = "<group>"; };
+		FEB7790C19EA5430006F56B4 /* AbsenteeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbsenteeTableViewCell.h; sourceTree = "<group>"; };
+		FEB7790D19EA5430006F56B4 /* AbsenteeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbsenteeTableViewCell.m; sourceTree = "<group>"; };
+		FEB7790E19EA5430006F56B4 /* AbsenteeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AbsenteeTableViewCell.xib; sourceTree = "<group>"; };
+		FEB7791219EA58F1006F56B4 /* ReportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportViewController.h; sourceTree = "<group>"; };
+		FEB7791319EA58F1006F56B4 /* ReportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportViewController.m; sourceTree = "<group>"; };
+		FEB7791419EA58F1006F56B4 /* ReportViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReportViewController.xib; sourceTree = "<group>"; };
+		FEB7791819EA6648006F56B4 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		FEB7791919EA6648006F56B4 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		FEFADCAB19EA81020003A3DB /* SubstituteRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubstituteRequest.h; sourceTree = "<group>"; };
+		FEFADCAC19EA81020003A3DB /* SubstituteRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubstituteRequest.m; sourceTree = "<group>"; };
+		FEFADCAD19EA81020003A3DB /* Substitute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Substitute.h; sourceTree = "<group>"; };
+		FEFADCAE19EA81020003A3DB /* Substitute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Substitute.m; sourceTree = "<group>"; };
+		FEFADCB219EA81200003A3DB /* CancellationRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CancellationRequest.h; sourceTree = "<group>"; };
+		FEFADCB319EA81200003A3DB /* CancellationRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CancellationRequest.m; sourceTree = "<group>"; };
+		FEFADCB419EA81200003A3DB /* ClassCancelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassCancelRequest.h; sourceTree = "<group>"; };
+		FEFADCB519EA81200003A3DB /* ClassCancelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassCancelRequest.m; sourceTree = "<group>"; };
+		FEFADCB619EA81200003A3DB /* UndoCancelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UndoCancelRequest.h; sourceTree = "<group>"; };
+		FEFADCB719EA81200003A3DB /* UndoCancelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UndoCancelRequest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +285,24 @@
 		FEB7784C19E93BF6006F56B4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FEFADCB119EA81090003A3DB /* CancellationRequest */,
+				FEFADCAA19EA80E30003A3DB /* SubstituteRequest */,
+				FEB7791719EA6639006F56B4 /* MBProgressHUD */,
+				FEB7790419EA5307006F56B4 /* Absentee */,
+				FEB778F219EA4A3C006F56B4 /* GetBatchRequest */,
+				FEB778F019EA4A1B006F56B4 /* Macros */,
+				FEB778D919EA3B76006F56B4 /* LowCreditRequest */,
+				FEB778D419EA32A8006F56B4 /* Credit */,
+				FEB778D019EA2144006F56B4 /* LeaderBoardRequest */,
+				FEB778CC19EA0B0C006F56B4 /* AbsenteeReqeust */,
+				FEB778B019E9AD03006F56B4 /* CreditHistory */,
+				FEB778AC19E9AC63006F56B4 /* ClassHistory */,
+				FEB778A519E9ABF6006F56B4 /* ClassHistoryRequest */,
+				FEB778A119E9A902006F56B4 /* CreditHistoryRequest */,
+				FEB7787E19E979B7006F56B4 /* Volunteer */,
+				FEB7787419E96480006F56B4 /* VolunteerRequest */,
+				FEB7786A19E95713006F56B4 /* UserInfo */,
+				FEB7786619E953A4006F56B4 /* SharedSingleton */,
 				FEB7786119E93D7E006F56B4 /* LoginRequest */,
 				FEB7785219E93C70006F56B4 /* Reachability */,
 				FEB7784D19E93C4D006F56B4 /* RequestHandler */,
@@ -166,6 +334,17 @@
 		FEB7785919E93C9E006F56B4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FEB7791119EA58B7006F56B4 /* ReportViewController */,
+				FEB778EA19EA49F0006F56B4 /* AttendanceDetailsView */,
+				FEB778E419EA49D5006F56B4 /* AttendanceViewController */,
+				FEB778C619EA0A14006F56B4 /* AbsenteeViewController */,
+				FEB778C019EA08D1006F56B4 /* LowCreditsViewController */,
+				FEB778BA19E9CD18006F56B4 /* LeaderBoardViewController */,
+				FEB778B419E9CCD6006F56B4 /* CreditViewController */,
+				FEB7789B19E9A79F006F56B4 /* CreditHistoryViewController */,
+				FEB7789519E9A763006F56B4 /* ClassHistoryViewController */,
+				FEB7787519E96509006F56B4 /* volunteerViewController */,
+				FEB7786E19E95A42006F56B4 /* HomeViewController */,
 				FEB7785A19E93CE1006F56B4 /* LoginViewController */,
 			);
 			path = Controller;
@@ -184,6 +363,11 @@
 		FEB7786019E93D44006F56B4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FEB7790819EA53CC006F56B4 /* AbsenteeCell */,
+				FEB778D819EA3384006F56B4 /* AttendanceCell */,
+				FEB7789419E9A749006F56B4 /* VolunteerTableViewCell */,
+				FEB7788919E9A6ED006F56B4 /* CreditHistory */,
+				FEB7788819E9A6E4006F56B4 /* ClassHistory */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -195,6 +379,342 @@
 				FEB7786319E93DA7006F56B4 /* LoginRequest.m */,
 			);
 			path = LoginRequest;
+			sourceTree = "<group>";
+		};
+		FEB7786619E953A4006F56B4 /* SharedSingleton */ = {
+			isa = PBXGroup;
+			children = (
+				FEB7786719E956B5006F56B4 /* SharedSingleton.h */,
+				FEB7786819E956B5006F56B4 /* SharedSingleton.m */,
+			);
+			path = SharedSingleton;
+			sourceTree = "<group>";
+		};
+		FEB7786A19E95713006F56B4 /* UserInfo */ = {
+			isa = PBXGroup;
+			children = (
+				FEB7786B19E95732006F56B4 /* UserInfo.h */,
+				FEB7786C19E95732006F56B4 /* UserInfo.m */,
+			);
+			path = UserInfo;
+			sourceTree = "<group>";
+		};
+		FEB7786E19E95A42006F56B4 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FEB778DD19EA496D006F56B4 /* HomeViewController.h */,
+				FEB778DE19EA496D006F56B4 /* HomeViewController.m */,
+				FEB778DF19EA496D006F56B4 /* VolunteerViewController.xib */,
+				FEB778E019EA496D006F56B4 /* MentorViewController.xib */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		FEB7787419E96480006F56B4 /* VolunteerRequest */ = {
+			isa = PBXGroup;
+			children = (
+				FEB7787B19E96955006F56B4 /* VolunteerRequest.h */,
+				FEB7787C19E96955006F56B4 /* VolunteerRequest.m */,
+			);
+			path = VolunteerRequest;
+			sourceTree = "<group>";
+		};
+		FEB7787519E96509006F56B4 /* volunteerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FEB7787619E96878006F56B4 /* VolunteerListViewController.h */,
+				FEB7787719E96878006F56B4 /* VolunteerListViewController.m */,
+				FEB7787819E96878006F56B4 /* VolunteerListViewController.xib */,
+			);
+			path = volunteerViewController;
+			sourceTree = "<group>";
+		};
+		FEB7787E19E979B7006F56B4 /* Volunteer */ = {
+			isa = PBXGroup;
+			children = (
+				FEB7787F19E979D9006F56B4 /* Volunteer.h */,
+				FEB7788019E979D9006F56B4 /* Volunteer.m */,
+			);
+			path = Volunteer;
+			sourceTree = "<group>";
+		};
+		FEB7788819E9A6E4006F56B4 /* ClassHistory */ = {
+			isa = PBXGroup;
+			children = (
+				FEB7788F19E9A73E006F56B4 /* ClassHistoryTableViewCell.h */,
+				FEB7789019E9A73E006F56B4 /* ClassHistoryTableViewCell.m */,
+				FEB7789119E9A73E006F56B4 /* ClassHistoryTableViewCell.xib */,
+			);
+			name = ClassHistory;
+			path = ClassHistort;
+			sourceTree = "<group>";
+		};
+		FEB7788919E9A6ED006F56B4 /* CreditHistory */ = {
+			isa = PBXGroup;
+			children = (
+				FEB7788A19E9A728006F56B4 /* CreditHistoryTableViewCell.h */,
+				FEB7788B19E9A728006F56B4 /* CreditHistoryTableViewCell.m */,
+				FEB7788C19E9A728006F56B4 /* CreditHistoryTableViewCell.xib */,
+			);
+			path = CreditHistory;
+			sourceTree = "<group>";
+		};
+		FEB7789419E9A749006F56B4 /* VolunteerTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				FEB7788319E97DB3006F56B4 /* VolunteerTableViewCell.h */,
+				FEB7788419E97DB3006F56B4 /* VolunteerTableViewCell.m */,
+				FEB7788519E97DB3006F56B4 /* VolunteerTableViewCell.xib */,
+			);
+			name = VolunteerTableViewCell;
+			sourceTree = "<group>";
+		};
+		FEB7789519E9A763006F56B4 /* ClassHistoryViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FEB7789619E9A799006F56B4 /* ClassHistoryViewController.h */,
+				FEB7789719E9A799006F56B4 /* ClassHistoryViewController.m */,
+				FEB7789819E9A799006F56B4 /* ClassHistoryViewController.xib */,
+			);
+			path = ClassHistoryViewController;
+			sourceTree = "<group>";
+		};
+		FEB7789B19E9A79F006F56B4 /* CreditHistoryViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FEB7789C19E9A878006F56B4 /* CreditHistoryViewController.h */,
+				FEB7789D19E9A878006F56B4 /* CreditHistoryViewController.m */,
+				FEB7789E19E9A878006F56B4 /* CreditHistoryViewController.xib */,
+			);
+			path = CreditHistoryViewController;
+			sourceTree = "<group>";
+		};
+		FEB778A119E9A902006F56B4 /* CreditHistoryRequest */ = {
+			isa = PBXGroup;
+			children = (
+				FEB778A219E9A935006F56B4 /* CreditHistoryRequest.h */,
+				FEB778A319E9A935006F56B4 /* CreditHistoryRequest.m */,
+			);
+			path = CreditHistoryRequest;
+			sourceTree = "<group>";
+		};
+		FEB778A519E9ABF6006F56B4 /* ClassHistoryRequest */ = {
+			isa = PBXGroup;
+			children = (
+				FEB778A619E9AC29006F56B4 /* ClassHistoryRequest.h */,
+				FEB778A719E9AC29006F56B4 /* ClassHistoryRequest.m */,
+			);
+			path = ClassHistoryRequest;
+			sourceTree = "<group>";
+		};
+		FEB778AC19E9AC63006F56B4 /* ClassHistory */ = {
+			isa = PBXGroup;
+			children = (
+				FEB778AD19E9ACF5006F56B4 /* ClassHistory.h */,
+				FEB778AE19E9ACF5006F56B4 /* ClassHistory.m */,
+			);
+			path = ClassHistory;
+			sourceTree = "<group>";
+		};
+		FEB778B019E9AD03006F56B4 /* CreditHistory */ = {
+			isa = PBXGroup;
+			children = (
+				FEB778B119E9AD23006F56B4 /* CreditHistory.h */,
+				FEB778B219E9AD23006F56B4 /* CreditHistory.m */,
+			);
+			name = CreditHistory;
+			sourceTree = "<group>";
+		};
+		FEB778B419E9CCD6006F56B4 /* CreditViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FEB778B519E9CD08006F56B4 /* CreditViewController.h */,
+				FEB778B619E9CD08006F56B4 /* CreditViewController.m */,
+			);
+			path = CreditViewController;
+			sourceTree = "<group>";
+		};
+		FEB778BA19E9CD18006F56B4 /* LeaderBoardViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FEB778BB19E9D440006F56B4 /* LeaderBoardViewController.h */,
+				FEB778BC19E9D440006F56B4 /* LeaderBoardViewController.m */,
+				FEB778BE19EA06A7006F56B4 /* LeaderBoardViewController.xib */,
+			);
+			path = LeaderBoardViewController;
+			sourceTree = "<group>";
+		};
+		FEB778C019EA08D1006F56B4 /* LowCreditsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FEB778C119EA0906006F56B4 /* LowCreditsViewController.h */,
+				FEB778C219EA0906006F56B4 /* LowCreditsViewController.m */,
+				FEB778C319EA0906006F56B4 /* LowCreditsViewController.xib */,
+			);
+			path = LowCreditsViewController;
+			sourceTree = "<group>";
+		};
+		FEB778C619EA0A14006F56B4 /* AbsenteeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FEB778C719EA0AAB006F56B4 /* AbsenteeViewController.h */,
+				FEB778C819EA0AAB006F56B4 /* AbsenteeViewController.m */,
+				FEB778C919EA0AAB006F56B4 /* AbsenteeViewController.xib */,
+			);
+			path = AbsenteeViewController;
+			sourceTree = "<group>";
+		};
+		FEB778CC19EA0B0C006F56B4 /* AbsenteeReqeust */ = {
+			isa = PBXGroup;
+			children = (
+				FEB778CD19EA0B33006F56B4 /* AbsenteeRequest.h */,
+				FEB778CE19EA0B33006F56B4 /* AbsenteeRequest.m */,
+			);
+			name = AbsenteeReqeust;
+			path = AbsenteeRequest;
+			sourceTree = "<group>";
+		};
+		FEB778D019EA2144006F56B4 /* LeaderBoardRequest */ = {
+			isa = PBXGroup;
+			children = (
+				FEB778D119EA216A006F56B4 /* LeaderBoardRequest.h */,
+				FEB778D219EA216A006F56B4 /* LeaderBoardRequest.m */,
+			);
+			path = LeaderBoardRequest;
+			sourceTree = "<group>";
+		};
+		FEB778D419EA32A8006F56B4 /* Credit */ = {
+			isa = PBXGroup;
+			children = (
+				FEB778D519EA32C9006F56B4 /* Credit.h */,
+				FEB778D619EA32C9006F56B4 /* Credit.m */,
+			);
+			path = Credit;
+			sourceTree = "<group>";
+		};
+		FEB778D819EA3384006F56B4 /* AttendanceCell */ = {
+			isa = PBXGroup;
+			children = (
+				FEB778FF19EA4B0F006F56B4 /* AttendanceCell.h */,
+				FEB7790019EA4B0F006F56B4 /* AttendanceCell.m */,
+				FEB7790119EA4B0F006F56B4 /* AttendanceCell.xib */,
+			);
+			name = AttendanceCell;
+			sourceTree = "<group>";
+		};
+		FEB778D919EA3B76006F56B4 /* LowCreditRequest */ = {
+			isa = PBXGroup;
+			children = (
+				FEB778DA19EA3BAC006F56B4 /* LowCreditRequest.h */,
+				FEB778DB19EA3BAC006F56B4 /* LowCreditRequest.m */,
+			);
+			name = LowCreditRequest;
+			path = LowCreditHistor;
+			sourceTree = "<group>";
+		};
+		FEB778E419EA49D5006F56B4 /* AttendanceViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FEB778E519EA49EC006F56B4 /* AttendanceViewController.h */,
+				FEB778E619EA49EC006F56B4 /* AttendanceViewController.m */,
+				FEB778E719EA49EC006F56B4 /* AttendanceViewController.xib */,
+			);
+			name = AttendanceViewController;
+			sourceTree = "<group>";
+		};
+		FEB778EA19EA49F0006F56B4 /* AttendanceDetailsView */ = {
+			isa = PBXGroup;
+			children = (
+				FEB778EB19EA4A04006F56B4 /* AttendanceDetailsViewController.h */,
+				FEB778EC19EA4A04006F56B4 /* AttendanceDetailsViewController.m */,
+				FEB778ED19EA4A04006F56B4 /* AttendanceDetailsViewController.xib */,
+			);
+			name = AttendanceDetailsView;
+			sourceTree = "<group>";
+		};
+		FEB778F019EA4A1B006F56B4 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				FEB778F119EA4A2E006F56B4 /* Macros.h */,
+			);
+			name = Macros;
+			sourceTree = "<group>";
+		};
+		FEB778F219EA4A3C006F56B4 /* GetBatchRequest */ = {
+			isa = PBXGroup;
+			children = (
+				FEB778F319EA4A52006F56B4 /* GetBatchRequest.h */,
+				FEB778F419EA4A52006F56B4 /* GetBatchRequest.m */,
+				FEB778F519EA4A52006F56B4 /* Level.h */,
+				FEB778F619EA4A52006F56B4 /* Level.m */,
+				FEB778F719EA4A52006F56B4 /* Lesson.h */,
+				FEB778F819EA4A52006F56B4 /* Lesson.m */,
+				FEB778F919EA4A52006F56B4 /* Teacher.h */,
+				FEB778FA19EA4A52006F56B4 /* Teacher.m */,
+			);
+			name = GetBatchRequest;
+			sourceTree = "<group>";
+		};
+		FEB7790419EA5307006F56B4 /* Absentee */ = {
+			isa = PBXGroup;
+			children = (
+				FEB7790519EA5341006F56B4 /* Absentee.h */,
+				FEB7790619EA5341006F56B4 /* Absentee.m */,
+			);
+			path = Absentee;
+			sourceTree = "<group>";
+		};
+		FEB7790819EA53CC006F56B4 /* AbsenteeCell */ = {
+			isa = PBXGroup;
+			children = (
+				FEB7790C19EA5430006F56B4 /* AbsenteeTableViewCell.h */,
+				FEB7790D19EA5430006F56B4 /* AbsenteeTableViewCell.m */,
+				FEB7790E19EA5430006F56B4 /* AbsenteeTableViewCell.xib */,
+			);
+			path = AbsenteeCell;
+			sourceTree = "<group>";
+		};
+		FEB7791119EA58B7006F56B4 /* ReportViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FEB7791219EA58F1006F56B4 /* ReportViewController.h */,
+				FEB7791319EA58F1006F56B4 /* ReportViewController.m */,
+				FEB7791419EA58F1006F56B4 /* ReportViewController.xib */,
+			);
+			path = ReportViewController;
+			sourceTree = "<group>";
+		};
+		FEB7791719EA6639006F56B4 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				FEB7791819EA6648006F56B4 /* MBProgressHUD.h */,
+				FEB7791919EA6648006F56B4 /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		FEFADCAA19EA80E30003A3DB /* SubstituteRequest */ = {
+			isa = PBXGroup;
+			children = (
+				FEFADCAB19EA81020003A3DB /* SubstituteRequest.h */,
+				FEFADCAC19EA81020003A3DB /* SubstituteRequest.m */,
+				FEFADCAD19EA81020003A3DB /* Substitute.h */,
+				FEFADCAE19EA81020003A3DB /* Substitute.m */,
+			);
+			name = SubstituteRequest;
+			sourceTree = "<group>";
+		};
+		FEFADCB119EA81090003A3DB /* CancellationRequest */ = {
+			isa = PBXGroup;
+			children = (
+				FEFADCB219EA81200003A3DB /* CancellationRequest.h */,
+				FEFADCB319EA81200003A3DB /* CancellationRequest.m */,
+				FEFADCB419EA81200003A3DB /* ClassCancelRequest.h */,
+				FEFADCB519EA81200003A3DB /* ClassCancelRequest.m */,
+				FEFADCB619EA81200003A3DB /* UndoCancelRequest.h */,
+				FEFADCB719EA81200003A3DB /* UndoCancelRequest.m */,
+			);
+			name = CancellationRequest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,9 +797,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEB7791019EA5430006F56B4 /* AbsenteeTableViewCell.xib in Resources */,
+				FEB778EF19EA4A04006F56B4 /* AttendanceDetailsViewController.xib in Resources */,
+				FEB7791619EA58F1006F56B4 /* ReportViewController.xib in Resources */,
+				FEB778CB19EA0AAB006F56B4 /* AbsenteeViewController.xib in Resources */,
+				FEB778E319EA496D006F56B4 /* MentorViewController.xib in Resources */,
+				FEB7789A19E9A799006F56B4 /* ClassHistoryViewController.xib in Resources */,
+				FEB778BF19EA06A7006F56B4 /* LeaderBoardViewController.xib in Resources */,
+				FEB778E919EA49EC006F56B4 /* AttendanceViewController.xib in Resources */,
 				FEB7785F19E93D1F006F56B4 /* LoginViewController.xib in Resources */,
+				FEB7789319E9A73E006F56B4 /* ClassHistoryTableViewCell.xib in Resources */,
+				FEB778A019E9A878006F56B4 /* CreditHistoryViewController.xib in Resources */,
+				FEB7787A19E96878006F56B4 /* VolunteerListViewController.xib in Resources */,
+				FEB7790319EA4B0F006F56B4 /* AttendanceCell.xib in Resources */,
+				FEB7788719E97DB3006F56B4 /* VolunteerTableViewCell.xib in Resources */,
 				FEB3F0B819E937D30031AED7 /* LaunchScreen.xib in Resources */,
+				FEB778E219EA496D006F56B4 /* VolunteerViewController.xib in Resources */,
+				FEB778C519EA0906006F56B4 /* LowCreditsViewController.xib in Resources */,
 				FEB3F0B519E937D30031AED7 /* Images.xcassets in Resources */,
+				FEB7788E19E9A728006F56B4 /* CreditHistoryTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,13 +833,52 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEB7790219EA4B0F006F56B4 /* AttendanceCell.m in Sources */,
+				FEB778A419E9A935006F56B4 /* CreditHistoryRequest.m in Sources */,
+				FEB778D319EA216A006F56B4 /* LeaderBoardRequest.m in Sources */,
+				FEB778CF19EA0B33006F56B4 /* AbsenteeRequest.m in Sources */,
 				FEB7786419E93DA7006F56B4 /* LoginRequest.m in Sources */,
+				FEB778D719EA32C9006F56B4 /* Credit.m in Sources */,
+				FEB7789219E9A73E006F56B4 /* ClassHistoryTableViewCell.m in Sources */,
+				FEB7787919E96878006F56B4 /* VolunteerListViewController.m in Sources */,
+				FEFADCB019EA81020003A3DB /* Substitute.m in Sources */,
+				FEB778FB19EA4A52006F56B4 /* GetBatchRequest.m in Sources */,
+				FEB7787D19E96955006F56B4 /* VolunteerRequest.m in Sources */,
+				FEB778EE19EA4A04006F56B4 /* AttendanceDetailsViewController.m in Sources */,
+				FEB778A819E9AC29006F56B4 /* ClassHistoryRequest.m in Sources */,
+				FEB778B819E9CD08006F56B4 /* CreditViewController.m in Sources */,
+				FEB7790F19EA5430006F56B4 /* AbsenteeTableViewCell.m in Sources */,
+				FEB778FC19EA4A52006F56B4 /* Level.m in Sources */,
+				FEFADCAF19EA81020003A3DB /* SubstituteRequest.m in Sources */,
+				FEB778C419EA0906006F56B4 /* LowCreditsViewController.m in Sources */,
+				FEB7789919E9A799006F56B4 /* ClassHistoryViewController.m in Sources */,
+				FEB7786D19E95733006F56B4 /* UserInfo.m in Sources */,
+				FEB7788619E97DB3006F56B4 /* VolunteerTableViewCell.m in Sources */,
+				FEB778FD19EA4A52006F56B4 /* Lesson.m in Sources */,
+				FEB7791519EA58F1006F56B4 /* ReportViewController.m in Sources */,
+				FEB778AF19E9ACF5006F56B4 /* ClassHistory.m in Sources */,
 				FEB7785E19E93D1F006F56B4 /* LoginViewController.m in Sources */,
 				FEB7785119E93C6B006F56B4 /* RequestHandler.m in Sources */,
+				FEB778CA19EA0AAB006F56B4 /* AbsenteeViewController.m in Sources */,
+				FEB778DC19EA3BAC006F56B4 /* LowCreditRequest.m in Sources */,
 				FEB3F0AD19E937D30031AED7 /* AppDelegate.m in Sources */,
+				FEFADCBA19EA81200003A3DB /* UndoCancelRequest.m in Sources */,
+				FEB778FE19EA4A52006F56B4 /* Teacher.m in Sources */,
+				FEB7790719EA5341006F56B4 /* Absentee.m in Sources */,
+				FEB7789F19E9A878006F56B4 /* CreditHistoryViewController.m in Sources */,
 				FEB7785819E93C97006F56B4 /* NetworkHandler.m in Sources */,
 				FEB7785719E93C97006F56B4 /* Reachability.m in Sources */,
+				FEB778E119EA496D006F56B4 /* HomeViewController.m in Sources */,
+				FEB778BD19E9D440006F56B4 /* LeaderBoardViewController.m in Sources */,
+				FEB7786919E956B5006F56B4 /* SharedSingleton.m in Sources */,
+				FEB778E819EA49EC006F56B4 /* AttendanceViewController.m in Sources */,
+				FEB7791A19EA6648006F56B4 /* MBProgressHUD.m in Sources */,
+				FEB7788D19E9A728006F56B4 /* CreditHistoryTableViewCell.m in Sources */,
+				FEB778B319E9AD23006F56B4 /* CreditHistory.m in Sources */,
 				FEB3F0AA19E937D30031AED7 /* main.m in Sources */,
+				FEFADCB819EA81200003A3DB /* CancellationRequest.m in Sources */,
+				FEFADCB919EA81200003A3DB /* ClassCancelRequest.m in Sources */,
+				FEB7788119E979D9006F56B4 /* Volunteer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,7 +992,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = MakeADifference/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -427,7 +1004,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = MakeADifference/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

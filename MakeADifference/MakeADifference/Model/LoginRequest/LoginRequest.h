@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "RequestHandler.h"
 
 @class LoginRequest;
 
@@ -18,10 +18,12 @@
 
 @end
 
-@interface LoginRequest : NSObject
+@interface LoginRequest : NSObject <RequestHandlerDelegate> {
+    RequestHandler *requestHandler;
+}
 
-- (instancetype)initWithDelegate:(id<LoginRequestDelegate> )delegate username:(NSString *)username password:(NSString *)password;
-
+- (instancetype)initWithDelegate:(id<LoginRequestDelegate> )delegate;
+- (void)startRequestWithUsername:(NSString *)username password:(NSString *)password;
 @property (nonatomic, readwrite) __weak id<LoginRequestDelegate> delegate;
 
 @end
