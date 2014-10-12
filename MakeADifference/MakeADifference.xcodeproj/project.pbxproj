@@ -86,7 +86,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FEB3F0A419E937D30031AED7 /* MakeADifference.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakeADifference.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEB3F0A419E937D30031AED7 /* MAD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEB3F0A819E937D30031AED7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEB3F0A919E937D30031AED7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FEB3F0AB19E937D30031AED7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -235,7 +235,7 @@
 		FEB3F0A519E937D30031AED7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FEB3F0A419E937D30031AED7 /* MakeADifference.app */,
+				FEB3F0A419E937D30031AED7 /* MAD.app */,
 				FEB3F0BD19E937D30031AED7 /* MakeADifferenceTests.xctest */,
 			);
 			name = Products;
@@ -734,7 +734,7 @@
 			);
 			name = MakeADifference;
 			productName = MakeADifference;
-			productReference = FEB3F0A419E937D30031AED7 /* MakeADifference.app */;
+			productReference = FEB3F0A419E937D30031AED7 /* MAD.app */;
 			productType = "com.apple.product-type.application";
 		};
 		FEB3F0BC19E937D30031AED7 /* MakeADifferenceTests */ = {
@@ -994,9 +994,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = MakeADifference/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MAD;
 			};
 			name = Debug;
 		};
@@ -1006,9 +1006,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = MakeADifference/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MAD;
 			};
 			name = Release;
 		};

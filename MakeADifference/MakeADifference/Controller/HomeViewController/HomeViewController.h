@@ -11,5 +11,6 @@
 @interface HomeViewController : UIViewController
 
 + (HomeViewController *)viewController;
+- (IBAction)logoutAction:(id)sender;
 
 @end

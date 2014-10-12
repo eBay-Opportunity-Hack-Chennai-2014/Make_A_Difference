@@ -8,6 +8,7 @@
 
 #import "LoginViewController.h"
 #import "HomeViewController.h"
+#import "MBProgressHUD.h"
 
 @interface LoginViewController ()
 
@@ -39,6 +40,7 @@
 //      [loginRequest startRequestWithUsername:@"mynamesrk@gmail.com" password:@"pass"];
     
     if ([self validateCredentials] == YES) {
+        [MBProgressHUD showHUDAddedTo:self.view animated:YES];
         LoginRequest *loginRequest = [[LoginRequest alloc] initWithDelegate:self];
         [loginRequest startRequestWithUsername:usernameTextField.text password:passwordTextField.text];        
     }
@@ -76,12 +78,12 @@
 #pragma mark loginRequestDelegate
 
 - (void)loginRequestDidSucceded:(LoginRequest *)loginRequest {
-
+    [MBProgressHUD hideHUDForView:self.view animated:YES];
     [self.navigationController pushViewController:[HomeViewController viewController] animated:YES];
 }
 
 - (void)loginRequestdidFailed:(LoginRequest *)loginRequest withError:(NSString *)error {
-    
+    [MBProgressHUD hideHUDForView:self.view animated:YES];
     [self alertWithMessage:error];
 }
 

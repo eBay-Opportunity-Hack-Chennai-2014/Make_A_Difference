@@ -14,6 +14,7 @@
 #import "AbsenteeViewController.h"
 #import "ReportViewController.h"
 #import "SharedSingleton.h"
+#import "SharedSingleton.h"
 
 @interface HomeViewController ()
 
@@ -25,6 +26,11 @@
     
     HomeViewController *homeViewController = [[HomeViewController alloc] initWithNibName:[SharedSingleton singleton].userInfo.mentor.intValue ? @"MentorViewController" : @"VolunteerViewController" bundle:[NSBundle mainBundle]];
     return homeViewController;
+}
+
+- (IBAction)logoutAction:(id)sender {
+    [SharedSingleton singleton].userInfo = nil;
+    [self.navigationController popToRootViewControllerAnimated:YES];
 }
 
 - (void)viewDidLoad {
