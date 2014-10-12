@@ -33,15 +33,15 @@
 
 
 - (IBAction)loginPressed:(id)sender {
-
-    LoginRequest *loginRequest = [[LoginRequest alloc] initWithDelegate:self];
-//    [loginRequest startRequestWithUsername:@"fiona.annette.0110@gmail.com" password:@"pass"];
-      [loginRequest startRequestWithUsername:@"mynamesrk@gmail.com" password:@"pass"];
+//
+//    LoginRequest *loginRequest = [[LoginRequest alloc] initWithDelegate:self];
+////    [loginRequest startRequestWithUsername:@"fiona.annette.0110@gmail.com" password:@"pass"];
+//      [loginRequest startRequestWithUsername:@"mynamesrk@gmail.com" password:@"pass"];
     
-//    if ([self validateCredentials] == YES) {
-//        LoginRequest *loginRequest = [[LoginRequest alloc] initWithDelegate:self];
-//        [loginRequest startRequestWithUsername:usernameTextField.text password:passwordTextField.text];        
-//    }
+    if ([self validateCredentials] == YES) {
+        LoginRequest *loginRequest = [[LoginRequest alloc] initWithDelegate:self];
+        [loginRequest startRequestWithUsername:usernameTextField.text password:passwordTextField.text];        
+    }
     
 }
 
