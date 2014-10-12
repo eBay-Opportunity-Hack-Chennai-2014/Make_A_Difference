@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" 
+    android:weightSum="4">
+    
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:background="@color/blue"
+    android:layout_weight="0.4"
+    android:orientation="vertical" 
+    >
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="Make A Difference"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        />
+   </LinearLayout>
+   <RelativeLayout
+        android:id="@+id/datetime_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/blue_bg"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/date_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/digitalclock"
+            android:text=""
+            android:textColor="@color/black" />
+
+        <DigitalClock
+            android:id="@+id/digitalclock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:text="DigitalClock"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:gravity="center"
+    android:layout_weight="3.6"
+    android:orientation="vertical" >
+    
+    
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal" 
+    android:weightSum="4">
+    
+         <LinearLayout 
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.75">
+             
+             
+    </LinearLayout>
+    <LinearLayout 
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="2.5"
+    android:background="@color/white"
+    android:weightSum="1.2">
+      <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.20" >
+
+                <TextView
+                    android:layout_width="25sp"
+                    android:layout_height="25sp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/home_username" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="0.005"
+                android:background="@color/gray" />
+
+            <EditText
+                android:id="@+id/edit_username"
+                  android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="0.99"
+                android:background="@drawable/edt_bg"
+                android:ems="10"
+                android:gravity="center_vertical|left"
+                android:inputType="text"
+                android:paddingLeft="5dp"
+                android:hint="User"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="18sp" >
+                </EditText>
+             
+    </LinearLayout>
+    <LinearLayout 
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.75">
+             
+             
+    </LinearLayout>
+    
+      </LinearLayout>
+    
+    
+    
+    
+    
+    
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal" 
+    android:layout_marginTop="10dp"
+    android:weightSum="4">
+    
+         <LinearLayout 
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.75">
+             
+             
+    </LinearLayout>
+    <LinearLayout 
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="2.5"
+    android:background="@color/white"
+    android:weightSum="1.2">
+      <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.20" >
+
+                <TextView
+                    android:layout_width="25sp"
+                    android:layout_height="25sp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/home_lock" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="0.005"
+                android:background="@color/gray" />
+
+            <EditText
+                android:id="@+id/edit_pwd"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="0.99"
+                android:background="@drawable/edt_bg"
+                android:ems="10"
+                android:gravity="center_vertical|left"
+                android:inputType="text"
+                android:paddingLeft="5dp"
+                android:hint="Password"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="18sp" >
+            </EditText>       
+             
+    </LinearLayout>
+    <LinearLayout 
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.75">
+             
+             
+    </LinearLayout>
+    
+    </LinearLayout>
+      <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal" 
+    android:weightSum="4">
+    
+         <LinearLayout 
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1">
+             
+             
+    </LinearLayout>
+    
+    <LinearLayout 
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="2">
+             <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/login_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:background="@drawable/round_but_bg"
+                    android:text="Login"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+             
+    </LinearLayout>
+    
+    <LinearLayout 
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1">
+             
+             
+    </LinearLayout>
+    </LinearLayout>
+    
+    </LinearLayout>
+    
+
+</LinearLayout>
